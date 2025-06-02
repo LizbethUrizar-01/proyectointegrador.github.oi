@@ -1,0 +1,81 @@
+/* estilo.css - Minimalista y misterioso para leyendas */
+
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #8b0000;
+  --link-color: #c62828;
+  --font-main: 'Georgia', serif;
+  --font-alt: 'Courier New', monospace;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #1f1f1f;
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #181818;
+  border-left: 4px solid var(--accent-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+h2 {
+  color: var(--link-color);
+  font-family: var(--font-alt);
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
